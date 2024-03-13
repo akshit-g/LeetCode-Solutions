@@ -23,7 +23,7 @@ class Solution {
         if(n<=0)
         return false;
         String val=Integer.toBinaryString(n);
-        int len = val.length();
+        // int len = val.length();
         System.out.println(val);
         if ((val.indexOf('1') == val.lastIndexOf('1'))&&(val.indexOf('1')!=-1)){
             return true;
